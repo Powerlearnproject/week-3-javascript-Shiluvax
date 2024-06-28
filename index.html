@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Project</title>
+    <!-- Link to Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <h1>Interactive Web Project</h1>
+    <div>
+        <!-- Add your HTML content for user interaction -->
+        <button id="addBtn">Add</button>
+        <button id="subtractBtn">Subtract</button>
+        <button id="multiplyBtn">Multiply</button>
+        <button id="divideBtn">Divide</button>
+        <br><br>
+        Result: <span id="result">0</span>
+    </div>
+    <div>
+        <!-- Canvas for Chart.js chart -->
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+</body>
+</html>
